@@ -301,7 +301,7 @@ public class App extends JFrame {
 	}
 
 	private static String getWeatherdate() { // 查詢天氣
-		String apikey = "CWB-7AE1FEA7-A66D-470C-9F9A-DDC87FE89401";
+		String apikey = "YOUR_API_KEY";
 		String serchlocation = "臺中市";
 		StringBuilder output = new StringBuilder();
 		Map<String, Map<String, Map<String, String>>> weatherDataMap = new HashMap<>();
